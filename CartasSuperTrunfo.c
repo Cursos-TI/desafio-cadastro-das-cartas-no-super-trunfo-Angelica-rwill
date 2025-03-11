@@ -34,7 +34,8 @@ int main() {
     scanf("%d", &PontosTuristicos);
 
     printf("Estado: %s - Codigo: %s - Cidade: %s\n", Estado, Codigo, Cidade);
-    printf("Populacao: %d - Area: %.2f - PIB: %.2f\n", Populacao, Area, PIB);
+    printf("Populacao: %d \n", população);
+    printf("Area: %.2f - PIB: %.2f\n", Area, PIB);
     printf("Pontos turisticos: %d\n", PontosTuristicos);
 
     return 0;
